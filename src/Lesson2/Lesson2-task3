@@ -1,0 +1,15 @@
+public class Main {
+    public static void main(String[] args) {
+        int value = 101;
+        printColor(value);
+    }
+    static void printColor(int x) {
+        if (x <= 0) {
+            System.out.println("Красный");
+        } else if (0 < x && x <= 100){
+            System.out.println("Желтый");
+        } else {
+            System.out.println("Зеленый");
+        }
+    }
+}
