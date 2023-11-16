@@ -1,0 +1,14 @@
+public class Main {
+    public static void main(String[] args) {
+        int a = 10;
+        int b = 5;
+        compareNumbers(a, b);
+    }
+    static void compareNumbers(int x, int y) {
+        if (x >= y) {
+            System.out.println("a >= b");
+        } else {
+            System.out.println("a < b");
+        }
+    }
+}
