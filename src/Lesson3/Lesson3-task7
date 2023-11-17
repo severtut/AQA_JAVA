@@ -1,0 +1,11 @@
+public class Main {
+    public static void main(String[] args) {
+        EmptyIntArr();
+    }public static void EmptyIntArr(int x) {
+        int[] fillArr = new int[x];
+        for (int i = 0; i < fillArr.length; i++) {
+            fillArr[i] = i + 1;
+            System.out.print(fillArr[i] + " ");
+        }
+    }
+}

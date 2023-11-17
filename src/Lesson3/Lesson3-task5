@@ -1,0 +1,13 @@
+public class Main {
+    static boolean leapYearOrNot() {
+        int x = 1988;
+        if (!(x % 4 == 0) || ((x % 100 == 0) && !(x % 400 == 0))){
+            return true;
+        } else {
+            return false;
+        }
+    }
+    public static void main(String[] args) {
+        System.out.println(leapYearOrNot());
+    }
+}

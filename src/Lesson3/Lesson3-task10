@@ -1,0 +1,8 @@
+public static void printArray(int[] inputArray) {
+        int i = 2;
+        for (int i = 0; i < inputArray.length; i++) {
+            System.out.print(inputArray[i] + " ");
+        }
+        System.out.println();
+    }
+}

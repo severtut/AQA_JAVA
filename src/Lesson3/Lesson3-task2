@@ -1,0 +1,12 @@
+public class Main {
+    public static void main(String[] args) {
+        CountStr();
+    }
+
+    private static String CountStr() {
+        String str = "Привет";
+        str.repeat(3);
+        return str;
+    }
+
+}

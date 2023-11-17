@@ -1,0 +1,15 @@
+public class Main {
+    public static void main(String[] args) {
+        squareArr();
+    }
+    public static void squareArr(int x, int y) {
+        int[][] arr = new int[x][y];
+        for (int i = 0; i < arr.length; i++) {
+            for (int j = 0; j < arr.length; j++) {
+                arr[i][i] = 1;
+                System.out.print(arr[i][j] + " ");
+            }
+            System.out.println();
+        }
+    }
+}
