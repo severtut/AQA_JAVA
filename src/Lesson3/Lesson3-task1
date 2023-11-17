@@ -1,0 +1,13 @@
+public class Main {
+    static boolean betweenTenAndTwenty(int x, int y) {
+        int z = x + y;
+        if (z >= 10 && z <= 20) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+    public static void main(String[] args) {
+        System.out.println(betweenTenAndTwenty(16,3));
+    }
+}
